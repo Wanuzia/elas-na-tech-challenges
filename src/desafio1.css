@@ -42,11 +42,24 @@ img {
     width: 50%;
 }
 .description {
+    animation: pulse 2s infinite;
     background-color: antiquewhite;
     color: #000;
     font-family: 'MedievalSharp', cursive;
     font-weight: 700;
     padding: 1rem;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 .content {
     background: linear-gradient(90deg, #75ba75 0%, #d6de24 50%, #f5c08c 100%);
