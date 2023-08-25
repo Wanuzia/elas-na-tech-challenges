@@ -24,7 +24,7 @@ footer {
     display: flex;
     font-family: 'Righteous', cursive;
     justify-content: center;
-    padding: 4rem;
+    padding: 1rem;
 }
 a {
     color: #fff;
@@ -45,9 +45,16 @@ button {
 }
 .title {
     color: #3e0022;
-    padding: 0.1rem 1rem 3rem;
+    padding: 0.1rem 0 3rem;
 }
 .foto {
     border-radius: 50%;
     border: 5px #c2302f solid;
+}
+
+
+@media screen and (min-width:540px) {
+    footer {
+        padding: 4rem;
+    }
 }
