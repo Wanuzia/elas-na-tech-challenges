@@ -66,6 +66,7 @@ img {
     color: darkblue;
     display: flex;
     flex-direction: column;
+    font-family: 'Comfortaa', cursive; 
     gap: 1rem;
     padding: 3rem;
     text-align: justify;
@@ -73,4 +74,18 @@ img {
 
 .img-ods11 {
     padding: 2rem;
+}
+
+.voltar {
+    display: flex;
+}
+.btn-voltar {
+    background-color: darkcyan;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    transition: 0.5s;
 }
