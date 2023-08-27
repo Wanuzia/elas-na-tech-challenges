@@ -17,7 +17,8 @@ body {
     line-height: 1.5;
 }
 header {
-    background: linear-gradient(90deg, #75ba75 0%, #d6de24 50%, #f5c08c 100%);
+    background-color: #000;
+    color: #fff;
     padding: 1rem;
     text-align: center;
 }
@@ -43,11 +44,14 @@ img {
     width: 50%;
 }
 .description {
-    color: brown;
+    align-self: flex-end;
+    background-color: darkcyan;
+    box-shadow: -15px -20px 1px black;
+    color: white;
     font-family: 'MedievalSharp', cursive;
     font-weight: 700;
     padding: 2rem;
-
+    text-decoration: overline;
 }
 .content {
     background: linear-gradient(90deg, #75ba75 0%, #d6de24 50%, #f5c08c 100%);
@@ -77,26 +81,36 @@ img {
     padding: 0.5rem;
     transition: 0.5s;
 }
-.header-text h1 {
-    background-color: antiquewhite;
-    box-shadow: 0 0 1em #000;
-    color: #000;
+h1 {
     font-weight: 700;
     padding: 1rem;
 
 }
 
 .header-text {
+    display: flex;
+    font-size: 1.5rem;
     padding: 2rem;
+    width: 50%;
 }
 
 .header-content {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    background-image: url('https://media.istockphoto.com/id/1432546016/pt/foto/smiling-volunteer-working-in-garden.webp?b=1&s=170667a&w=0&k=20&c=PAIYD2IKt02Qjrq9GgaRj4roZlQVsIEwYoi_v3mzQvY=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 90vh;
+}
+.header-nav {
+    align-items: center;
+    background: linear-gradient(90deg, #75ba75 0%, #d6de24 50%, #f5c08c 100%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
 }
 .voltar {
-    display: flex;
-    padding-bottom: 3rem;
+
 }
 .btn-voltar {
     background-color: darkcyan;
