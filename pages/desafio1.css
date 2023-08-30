@@ -89,3 +89,25 @@ img {
     padding: 0.5rem;
     transition: 0.5s;
 }
+.navbar {
+    background-color: #75ba75;
+    overflow: hidden;
+    box-shadow: 0 0 3px #ccc;
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    display: block;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
